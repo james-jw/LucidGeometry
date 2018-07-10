@@ -200,22 +200,6 @@ namespace LucidGeometry.Tests
 
         }
 
-        //var portal = new Uri("https://win-o7h4l8voqt9.arcfmsolution.com/portal106");
-        //var token = ContextualFeature.Client.Portal.GenerateTokenAsync(portal, req => {
-        //    req.Expiration(60);
-        //    req.Client(ClientIdType.Referer);
-        //    req.Referer(new Uri("https://win-o7h4l8voqt9.arcfmsolution.com/arcgis106"));
-        //    req.Username("siteadmin");
-        //    req.Password("G0miner!!22222");
-        //}).Result;
-        //var service = new Uri("https://win-o7h4l8voqt9.arcfmsolution.com/arcgis106/rest/services/SchneidervilleUNGas/FeatureServer");
-        //var first = new ContextualFeature(new Guid("{FA064790-0E98-493A-9EAF-4259EDB5FC4F}"), 215, service, token.Token);
-        //var geometry = (ILucidLine)first.Geometry;
-        //first.Geometry = fixedGeometry;
-
-        //var set = new ContextualFeatureSet(first);
-        //var editResults = set.ApplyEdits().Result;
-
         [TestMethod()]
         public void RemoveSelfIntersectionsTest()
         {
